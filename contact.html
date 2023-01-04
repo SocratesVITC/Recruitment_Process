@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="header">
+        <navbar class="navbar">
+            <li><img src="img/socrateslogo1.png" alt="logo" width="90px" height="90px"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Our Events</a></li>
+            <li><a href="members.html">About Us</a></li>
+        </navbar>
+    </div>
+    <div class="container">
+        <div class="box"><img src="img/Quotes-by-Socrates-featured.jpg" alt="quote"></div>
+    </div>
+    <div class="contactform">   
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <div class="contacttext">
+                    <legend>Send Us Your Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name" required>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="your email">
+                        <br><br>
+                        <label for="yourmessage">Your Message:</label>
+                        <br>
+                        <textarea name="yourmessage" id="yourmessage" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+                    </p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="media">
+        <p class="checkout">You can check out:</p>
+        <ul>
+            <li class="checkoutinstalink">Check out our: <a href="https://www.instagram.com/socratesclubvitc/">Instagram Page</a></li>
+            <li class="checkoutwtsplink">Check out our: <a href="https://chat.whatsapp.com/C9oqJdzZDfy9wqY4xcpUaW">Whatsapp Group</a></li>
+        </ul>
+    </div> 
+</body>
+</html>
