@@ -1,0 +1,1 @@
+This is the first design I have constructed from the basics of HTML and CSS for the Socrates Club.
